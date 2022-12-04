@@ -69,11 +69,19 @@ header{
 }
 
 .menu__item a {
+    transition: .7s;
     color: white; 
     font-size: 14px;
-    line-height: 3em;
+    line-height: 3.8em;
     letter-spacing: 0.1em;
     margin-top: 15px;
+}
+
+.menu__item a:hover{
+    transition: all .7s;
+    background-image: linear-gradient(90deg, #ee8877, #e6d32f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .contact{
@@ -81,6 +89,7 @@ header{
     font-size: 17px;
     text-align: right;
     letter-spacing: 0.1em;
+    margin-left: 15px;
 }
 
 .block{
@@ -114,6 +123,14 @@ header{
     letter-spacing: 0.1em;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
+}
+
+.block__btn a:hover{
+    background-image: linear-gradient(90deg, #ee8877, #e6d32f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #ee8877;
+   
 }
 
 .about{
@@ -194,7 +211,7 @@ main{
 .footer{
     transition: 1s;
     position: absolute;
-    
+    font-family: 'sans';
     padding: 60px 0;
     width: 100vw;
     height: 10vh;
@@ -224,4 +241,48 @@ footer{
     font-size: 15px;
     line-height: 133%;
     margin-left: 55px;
+}
+
+.avtor a:hover{
+    color: rgb(80, 163, 24);
+}
+
+@media (max-width:1280px) {
+    .link{
+        width: 50%;
+    }
+    .menu{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:750px) {
+    .link{
+        width: 75%;
+    }
+    .menu{
+        margin-left: 16px;
+    }
+    .contact{
+        letter-spacing: 0;
+    }
+}
+
+
+@media (max-width:750px) {
+    .link {
+        width: 60%;
+    }
+
+    .menu {
+        margin-left: 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .contact {
+        margin-left: 0;
+    }
 }
