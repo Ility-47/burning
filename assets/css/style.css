@@ -270,7 +270,11 @@ footer{
 }
 
 
-@media (max-width:750px) {
+@media (max-width:540px) {
+    .block{
+        padding-top: 56px;
+    }
+    
     .link {
         width: 60%;
     }
@@ -284,5 +288,17 @@ footer{
 
     .contact {
         margin-left: 0;
+    }
+    .about__title{
+        margin: 23px 0 35px 0;
+        font-size: 36px;
+    }
+    .post__title{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    
+    .post__text{
+        font-size: 14px;
     }
 }
