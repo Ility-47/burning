@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: inherit;}
     z-index: 10;
     transition: 1s;
     color: white;
-    background-image: url('../image/bg.jpg');
+    background-image: url('../image/bg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'anton';
