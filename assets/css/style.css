@@ -304,4 +304,7 @@ footer{
     .post__gallery{
         margin-top: 0px;
     }
+    .postGallery{
+        margin-top: 0px;   
+    }
 }
