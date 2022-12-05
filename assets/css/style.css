@@ -290,7 +290,7 @@ footer{
         margin-left: 0;
     }
     .about__title{
-        margin: 23px 0 35px 0;
+        margin: 13px 0 20px 0;
         font-size: 36px;
     }
     .post__title{
@@ -300,5 +300,8 @@ footer{
     
     .post__text{
         font-size: 14px;
+    }
+    .post__gallery{
+        margin-top: 0px;
     }
 }
